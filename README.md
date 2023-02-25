@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/92545393/221379742-bd928ae9-e2c7-471e-
 ## 🚀 Começando - Start
 
 ```
- Executar o seguinte arquivo : GestorDeEstoque\GestorDeEstoque\bin\Debug\GestorDeEstoque.exe
+ Executar o seguinte arquivo : GestorDeEstoque\bin\Debug\GestorDeEstoque.exe
 ```
 
 ## 🛠️ Construído com as seguintes linguagens e frameworks:
