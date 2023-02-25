@@ -1,0 +1,7 @@
+C:\Users\Madsen\source\repos\GestorDeEstoque\GestorDeEstoque\bin\Debug\GestorDeEstoque.exe.config
+C:\Users\Madsen\source\repos\GestorDeEstoque\GestorDeEstoque\bin\Debug\GestorDeEstoque.exe
+C:\Users\Madsen\source\repos\GestorDeEstoque\GestorDeEstoque\bin\Debug\GestorDeEstoque.pdb
+C:\Users\Madsen\source\repos\GestorDeEstoque\GestorDeEstoque\obj\Debug\GestorDeEstoque.csproj.AssemblyReference.cache
+C:\Users\Madsen\source\repos\GestorDeEstoque\GestorDeEstoque\obj\Debug\GestorDeEstoque.csproj.CoreCompileInputs.cache
+C:\Users\Madsen\source\repos\GestorDeEstoque\GestorDeEstoque\obj\Debug\GestorDeEstoque.exe
+C:\Users\Madsen\source\repos\GestorDeEstoque\GestorDeEstoque\obj\Debug\GestorDeEstoque.pdb
