@@ -6,6 +6,7 @@
 <br>
 
 C# com as principais funcionalidades básicas, trabalhando com orientação a objetos, classes e interfaces.
+
 Um gestor de estoque no CMD com as seguintes opções:
 
 * Listagem de arquivos;
