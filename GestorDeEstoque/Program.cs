@@ -12,7 +12,7 @@ namespace GestorDeEstoque
     {
 
         static List<IEstoque> produtos = new List<IEstoque>();
-        enum Menu { Listar = 1, Adicionar, Remover, Entrada, Saida, Sair }
+        enum Menu { ListarArquivos = 1, AdicionarArquivos, RemoverArquivos, EntradaRegistro, SaidaRegistro, Sair }
 
         static void Main(string[] args)
         {
@@ -21,7 +21,7 @@ namespace GestorDeEstoque
             while (escolheuSair == false)
             {
                 Console.WriteLine("Sistema de estoque");
-                Console.WriteLine("1-Listar\n2-Adicionar\n3-Remover\n4-Registrar entrada\n5-Registrar saida\n6-Sair");
+                Console.WriteLine("1-Listar Arquivos\n2-Adicionar Arquivos\n3-Remover Arquivos\n4-Registrar entrada\n5-Registrar saida\n6-Sair");
                 string opStr = Console.ReadLine();
                 int opInt = int.Parse(opStr);
 
@@ -31,20 +31,20 @@ namespace GestorDeEstoque
 
                     switch (escolha)
                     {
-                        case Menu.Listar:
-                            Listagem();
+                        case Menu.ListarArquivos:
+                            ListagemArquivos();
                             break;
-                        case Menu.Adicionar:
+                        case Menu.AdicionarArquivos:
                             Cadastro();
                             break;
-                        case Menu.Remover:
-                            Remover();
+                        case Menu.RemoverArquivos:
+                            RemoverArquivos();
                             break;
-                        case Menu.Entrada:
-                            Entrada();
+                        case Menu.EntradaRegistro:
+                            EntradaRegistro();
                             break;
-                        case Menu.Saida:
-                            Saida();
+                        case Menu.SaidaRegistro:
+                            SaidaRegistro();
                             break;
                         case Menu.Sair:
                             escolheuSair = true;
@@ -61,7 +61,7 @@ namespace GestorDeEstoque
  
         }
 
-        static void Listagem()
+        static void ListagemArquivos()
         {
             Console.WriteLine("Lista de produtos");
             int i = 0;
@@ -74,9 +74,9 @@ namespace GestorDeEstoque
             Console.ReadLine();
         }
 
-        static void Remover()
+        static void RemoverArquivos()
         {
-            Listagem();
+            ListagemArquivos();
             Console.WriteLine("Digite o ID do elemento que você quer remover:");
             int id = int.Parse(Console.ReadLine());
             if(id >= 0 && id < produtos.Count)
@@ -86,9 +86,9 @@ namespace GestorDeEstoque
             }
         }
 
-        static void Entrada()
+        static void EntradaRegistro()
         {
-            Listagem();
+            ListagemArquivos();
             Console.WriteLine("Digite o ID do elemento que você quer dar entrada:");
             int id = int.Parse(Console.ReadLine());
             if (id >= 0 && id < produtos.Count)
@@ -98,9 +98,9 @@ namespace GestorDeEstoque
             }
         }
 
-        static void Saida()
+        static void SaidaRegistro()
         {
-            Listagem();
+            ListagemArquivos();
             Console.WriteLine("Digite o ID do elemento que você quer dar baixa:");
             int id = int.Parse(Console.ReadLine());
             if (id >= 0 && id < produtos.Count)
