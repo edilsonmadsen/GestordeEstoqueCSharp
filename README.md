@@ -10,8 +10,11 @@ C# com as principais funcionalidades básicas, trabalhando com orientação a ob
 Um gestor de estoque no CMD com as seguintes opções:
 
 * Listagem de arquivos;
+
 * Adicionar itens com 3 opções (Produtos físicos, E-books e Cursos);
+
 * Remover arquivos,
+
 * Registrar entradas e saídas dos estoques.
 
 ## ⚙️ Demonstração do projeto em execução
