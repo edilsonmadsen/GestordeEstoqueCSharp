@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/92545393/221379742-bd928ae9-e2c7-471e-
 
 ## 🛠️ Construído com as seguintes linguagens e frameworks:
 
-* .NET Framework
+* .NET Framework,
 * C#
 
 ## ✒️ Autor
