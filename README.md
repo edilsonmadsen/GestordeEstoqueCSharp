@@ -7,6 +7,7 @@
 
 C# com as principais funcionalidades básicas, trabalhando com orientação a objetos, classes e interfaces.
 
+
 Um gestor de estoque no CMD com as seguintes opções:
 
 * Listagem de arquivos;
@@ -16,6 +17,7 @@ Um gestor de estoque no CMD com as seguintes opções:
 * Remover arquivos,
 
 * Registrar entradas e saídas dos estoques.
+
 
 ## ⚙️ Demonstração do projeto em execução
 
