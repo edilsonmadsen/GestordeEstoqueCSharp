@@ -11,7 +11,10 @@ Um gestor de estoque no CMD com as seguintes opções:
 
 * Listagem de arquivos;
 
-* Adicionar itens com 3 opções (Produtos físicos, E-books e Cursos);
+* Adicionar itens com 3 opções: 
+  - Produtos físicos;
+  - E-books,
+  - Cursos.
 
 * Remover arquivos,
 
