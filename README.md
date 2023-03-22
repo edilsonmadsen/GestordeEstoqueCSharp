@@ -16,7 +16,7 @@ Um gestor de estoque no CMD com as seguintes opções:
   - E-books,
   - Cursos.
 
-* Remover arquivos,
+* Remover arquivos.
 
 * Registrar entradas e saídas dos estoques.
 
