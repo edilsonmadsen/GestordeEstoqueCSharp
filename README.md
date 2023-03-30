@@ -20,6 +20,7 @@ Um gestor de estoque no CMD com as seguintes opções:
 
 * Registrar entradas e saídas dos estoques.
 
+
 ## ⚙️ Demonstração do projeto em execução
 
 https://user-images.githubusercontent.com/92545393/221379742-bd928ae9-e2c7-471e-96d0-e89a7920736a.mp4
