@@ -1,6 +1,7 @@
 # Gestor de Estoque C#
 
 <br>
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/92545393/221379822-e213dfe6-6895-4e88-94a7-9ab3ace0f0e0.png" width="300px"/>
 </div>
